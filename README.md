@@ -7,6 +7,10 @@
 ![GitHub forks](https://img.shields.io/github/forks/jonatafsa/dc-flix?style=for-the-badge)
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/jonatafsa/dc-flix?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/jonatafsa/dc-flix?style=for-the-badge)
+<<<<<<< HEAD
+=======
+![App Version](https://img.shields.io/github/package-json/v/jonatafsa/dc-flix/master?style=for-the-badge)
+>>>>>>> 222c7967e83b4c9dca0ccd84ab1308816bf1395a
 
 <img src="https://raw.githubusercontent.com/jonatafsa/CRUD-usando-prisma/979352f8a80fb08d7a7bc43904a15637845583d8/prisma/ERD.svg" alt="exemplo imagem">
 
