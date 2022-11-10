@@ -1,0 +1,128 @@
+.signin {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1200px;
+  position: relative;
+  transition: .3s ease;
+
+
+  .signin-container,
+  .register {
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    justify-content: center;
+    // gap: 1rem;
+
+    h1 {
+      font-size: 3rem;
+      font-weight: 500;
+      color: var(--main-color-1);
+    }
+
+    a {
+      font-size: .85rem;
+      font-weight: 300;
+    }
+
+    form {
+      margin: 4rem 0;
+      display: flex;
+      flex-direction: column;
+      max-width: 60%;
+
+      input {
+        margin: 1rem 0;
+        padding: 1rem;
+        border: 0;
+        border-radius: 5px;
+        font-size: 1rem;
+        font-weight: 300;
+        color: #FFF;
+        background-color: var(--bg-color-1);
+
+        &::placeholder {
+          color: rgb(94, 94, 94);
+        }
+      }
+
+      div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        a {
+          font-size: .75rem;
+          font-weight: 300;
+        }
+
+        button {
+          padding: 1rem 2rem;
+          border: 0;
+          border-radius: 5px;
+          font-size: 1rem;
+          font-weight: 300;
+          color: #FFF;
+          background-color: var(--main-color-1);
+          cursor: pointer;
+          transition: .3s ease;
+
+          &:hover {
+            background-color: var(--main-color-2);
+          }
+        }
+      }
+    }
+
+    .social-login {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+
+      img {
+        cursor: pointer;
+        transition: .3s ease;
+      }
+
+      img:hover {
+        opacity: .7;
+      }
+    }
+  }
+
+  aside {
+    padding: 2rem;
+  }
+
+  .register {
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: .3s ease;
+
+    form {
+      width: 100%;
+    }
+
+  }
+}
+
+.signup-show {
+  transform: translateX(-50%);
+
+  .signin-container {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .register {
+    transform: translateX(100%);
+    opacity: 1;
+    pointer-events: all;
+  }
+}
