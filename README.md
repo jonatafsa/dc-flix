@@ -7,7 +7,6 @@
 ![GitHub forks](https://img.shields.io/github/forks/jonatafsa/dc-flix?style=for-the-badge)
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/jonatafsa/dc-flix?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/jonatafsa/dc-flix?style=for-the-badge)
-![App Version](https://img.shields.io/github/package-json/v/jonatafsa/dc-flix/master?style=for-the-badge)
 
 <img src="https://raw.githubusercontent.com/jonatafsa/dc-flix/master/banner.png" alt="exemplo imagem">
 
