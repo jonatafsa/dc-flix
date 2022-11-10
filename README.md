@@ -7,7 +7,6 @@
 ![GitHub forks](https://img.shields.io/github/forks/jonatafsa/dc-flix?style=for-the-badge)
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/jonatafsa/dc-flix?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/jonatafsa/dc-flix?style=for-the-badge)
-![App Version](https://img.shields.io/github/package-json/v/jonatafsa/dc-flix/master?style=for-the-badge)
 
 <img src="https://raw.githubusercontent.com/jonatafsa/dc-flix/master/banner.png" alt="exemplo imagem">
 
@@ -21,9 +20,9 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 - Você instalou a versão mais recente do `node / npm`.
 
-## 🚀 Instalando DC Flix Prisma
+## 🚀 Instalando DC Flix
 
-Para instalar o DC Flix Prisma, siga estas etapas:
+Para instalar o DC Flix , siga estas etapas:
 
 Instale as dependencies:
 
@@ -31,24 +30,24 @@ Instale as dependencies:
 npm i
 ```
 
-## ☕ Usando DC Flix Prisma
+## ☕ Usando DC Flix
 
-Para usar DC Flix Prisma, siga estas etapas:
+Para usar DC Flix , siga estas etapas:
 
 ```
 npm run dev
 ```
 
-## 📫 Contribuindo para DC Flix Prisma
+## 📫 Contribuindo para DC Flix
 
 <!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
 
-Para contribuir com DC Flix Prisma, siga estas etapas:
+Para contribuir com DC Flix , siga estas etapas:
 
 1. Bifurque este repositório.
 2. Crie um branch: `git checkout -b master`.
 3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
-4. Envie para o branch original: `git push origin CRUD-usando-prisma / <local>`
+4. Envie para o branch original: `git push origin main / <local>`
 5. Crie a solicitação de pull.
 
 Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
